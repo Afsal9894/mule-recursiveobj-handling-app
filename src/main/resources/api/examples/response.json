@@ -1,0 +1,82 @@
+{
+  "groupDetails": {
+    "groupDetail": [
+      {
+        "username": "test1",
+        "name": "Service1",
+        "subscriptions": [
+          {
+            "topic": "SERVICE_STATUS_PRESETS"
+          },
+          {
+            "topic": "AIRCRAFT_ACTIVATION"
+          },
+          {
+            "topic": "OUT_OF_SERVICE"
+          }
+        ],
+        "groupDetails": {
+          "groupDetail": [
+            {
+              "username": "test2",
+              "name": "Service2",
+              "subscriptions": [
+                {
+                  "topic": "PROMO_CODES_REQUESTS"
+                }
+              ],
+              "groupDetails": {
+                "groupDetail": [
+                  {
+                    "username": "test3",
+                    "name": "Service3",
+                    "subscriptions": [
+                      {
+                        "topic": "BANNERS"
+                      },
+                      {
+                        "topic": "DOCUMENTS"
+                      },
+                      {
+                        "topic": "ONLINE_SERVICES"
+                      }
+                    ],
+                    "groupDetails": {
+                      "groupDetail": [
+                        {
+                          "username": "test4",
+                          "name": "Service4",
+                          "subscriptions": [
+                            {
+                              "topic": "SERVICE_STATUS_PRESETS"
+                            }
+                          ],
+                          "groupDetails": {
+                            "groupDetail": [
+                              {
+                                "username": "test5",
+                                "name": "Service5",
+                                "subscriptions": [
+                                  {
+                                    "topic": "SERVICE_STATUS_PRESETS"
+                                  },
+                                  {
+                                    "topic": "AIRCRAFT_ACTIVATION"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
